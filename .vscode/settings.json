@@ -1,0 +1,80 @@
+{
+    "databases": 
+    {
+        "dev-eu":
+        {
+            "SQLServer": "EU-DEV-DB01",
+            "Database": "MSG-DEV-EU",
+            "Companies": 
+            [
+                "MSG Production",
+                "MSG Production AUT",
+                "MSG Production NLD",
+                "MSG Production PT",
+                "MSG Production UK"
+            ]
+        },
+        "staging-au":
+        {
+            "SQLServer": "EU-DEV-DB01",
+            "Database": "MSG-STAGING-AU",
+            "Companies": 
+            [
+                "Marley Spoon Pty Ltd"
+            ]
+        },
+        "staging-eu":
+        {
+            "SQLServer": "EU-DEV-DB01",
+            "Database": "MSG-STAGING-EU",
+            "Companies": 
+            [
+                "MSG Production",
+                "MSG Production AUT",
+                "MSG Production NLD",
+                "MSG Production PT",
+                "MSG Production UK"
+            ]
+        },
+        "staging-us":
+        {
+            "SQLServer": "EU-DEV-DB01",
+            "Database": "MSG-STAGING-US",
+            "Companies": 
+            [
+                "MarleySpoon Inc"
+            ]
+        },
+        "prod-au":
+        {
+            "SQLServer": "AU-PROD-DB01",
+            "Database": "MSG-PROD-AU",
+            "Companies": 
+            [
+                "Marley Spoon Pty Ltd"
+            ]
+        },
+        "prod-eu":
+        {
+            "SQLServer": "EU-PROD-DB01",
+            "Database": "MSG-PROD-EU",
+            "Companies": 
+            [
+                "MSG Production",
+                "MSG Production AUT",
+                "MSG Production NLD",
+                "MSG Production PT",
+                "MSG Production UK"
+            ]
+        },
+        "prod-us":
+        {
+            "SQLServer": "US-PROD-DB01",
+            "Database": "MSG-PROD-US",
+            "Companies": 
+            [
+                "MarleySpoon Inc"
+            ]
+        }
+    }
+}
