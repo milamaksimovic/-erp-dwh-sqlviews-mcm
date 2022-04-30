@@ -4,7 +4,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dwh].[$(CompanyName)$Purchase Header] AS
+CREATE OR ALTER VIEW [dwh].[$(CompanyName)$Sales Header] AS
 SELECT [Document Type]
       ,[No_]
       ,[Status]
@@ -76,7 +76,7 @@ SELECT [Document Type]
       ,[Ship-to County]
       ,[Ship-to Country_Region Code]
       ,[Last Modified At]
-  FROM [dbo].[$(CompanyName)$Purchase Header] 
+  FROM [dbo].[$(CompanyName)$Sales Header] 
   WITH (NOLOCK)
 GO
 
