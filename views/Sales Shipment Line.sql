@@ -35,7 +35,10 @@ SELECT [Document No_]
       ,[Exchanged Item]
       ,[Volume L, (Calculated)]
       ,[Volume for Box L, (Calculated)]
+      ,[Order No_]
+      ,[Order Line No_]
       ,[Addon Segment No_]
+      ,[Updated At]
   FROM [dbo].[$(CompanyName)$Sales Shipment Line]
   WITH (NOLOCK)
 GO
