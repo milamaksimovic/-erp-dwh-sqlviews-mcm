@@ -23,7 +23,6 @@ SELECT [Location Code]
       ,[Guaranteed Shelf Life]
       ,[Routing No_]
       ,[Production BOM No_]
-      ,[]
   FROM [dbo].[$(CompanyName)$Stockkeeping Unit]
   WITH (NOLOCK)
 GO
