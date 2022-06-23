@@ -4,10 +4,8 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE OR ALTER VIEW [dwh].[$(CompanyName)$Purchase Header] AS
-SELECT [Document Type]
-      ,[No_]
-      ,[Status]
+CREATE OR ALTER VIEW [dwh].[$(CompanyName)$Purch_ Rcpt_ Header] AS
+SELECT [No_]
       ,[Responsibility Center]
       ,[Location Code]
       ,[Currency Code]
@@ -19,12 +17,7 @@ SELECT [Document Type]
       ,[Shortcut Dimension 2 Code]
       ,[Vendor Order No_]
       ,[Vendor Shipment No_]
-      ,[Vendor Invoice No_]
-      ,[Is Forecast]
-      ,[Reorder]
       ,[Reorder from PO No_]
-      ,[Created as Variance from]
-      ,[Critical]
       ,[Fumigation Required]
       ,[Truck Temperature]
       ,[Order Date]
@@ -33,8 +26,6 @@ SELECT [Document Type]
       ,[Expected Receipt Date]
       ,[Due Date]
       ,[Pmt_ Discount Date]
-      ,[Send Date]
-      ,[Sent as Purchase Order at]
       ,[Delivery Time From (planned)]
       ,[Delivery Time To (planned)]
       ,[Delivery Time (actual)]
@@ -65,7 +56,8 @@ SELECT [Document Type]
       ,[Ship-to Post Code]
       ,[Ship-to County]
       ,[Ship-to Country_Region Code]
-  FROM [dbo].[$(CompanyName)$Purchase Header] 
+      ,[Updated At]
+  FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Header]
   WITH (NOLOCK)
 GO
 
