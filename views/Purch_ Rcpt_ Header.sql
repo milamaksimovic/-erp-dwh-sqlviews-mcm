@@ -56,8 +56,8 @@ SELECT [No_]
       ,[Ship-to Post Code]
       ,[Ship-to County]
       ,[Ship-to Country_Region Code]
-      ,[Updated At]
       ,[Print Critical]
+      ,[Updated At]
   FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Header]
   WITH (NOLOCK)
 GO
