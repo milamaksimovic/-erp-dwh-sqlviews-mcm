@@ -35,6 +35,7 @@ SELECT [Document No_]
       ,[Order No_]
       ,[Order Line No_]
       ,[Updated At]
+      ,[Yield Item]	
   FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Line]
   WITH (NOLOCK)
 GO
