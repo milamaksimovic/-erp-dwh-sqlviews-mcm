@@ -35,6 +35,8 @@ SELECT [Document No_]
       ,[Order No_]
       ,[Order Line No_]
       ,[Updated At]
+      ,[Planned Purchasing Quantity]
+      ,[Planned Purch_ Qty_ Per UoM]
   FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Line]
   WITH (NOLOCK)
 GO

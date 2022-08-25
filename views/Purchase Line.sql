@@ -47,7 +47,9 @@ SELECT [Document Type]
       ,[Inv_ Discount Amount]
       ,[Expected Receipt Date]
       ,[Requested Receipt Date]
-      ,[Promised Receipt Date]	  
+      ,[Promised Receipt Date]	 
+      ,[Planned Purchasing Quantity]
+      ,[Planned Purch_ Qty_ Per UoM] 
   FROM [dbo].[$(CompanyName)$Purchase Line] 
   WITH (NOLOCK)
 GO
