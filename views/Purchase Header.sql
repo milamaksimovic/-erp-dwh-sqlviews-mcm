@@ -65,6 +65,7 @@ SELECT [Document Type]
       ,[Ship-to Post Code]
       ,[Ship-to County]
       ,[Ship-to Country_Region Code]
+      ,[Print Critical]
   FROM [dbo].[$(CompanyName)$Purchase Header] 
   WITH (NOLOCK)
 GO
