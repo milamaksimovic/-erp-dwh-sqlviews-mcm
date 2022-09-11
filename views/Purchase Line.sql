@@ -48,6 +48,9 @@ SELECT [Document Type]
       ,[Expected Receipt Date]
       ,[Requested Receipt Date]
       ,[Promised Receipt Date]	  
+      ,[Purchasing Qty. to Receive]
+      ,[Purchasing Quantity Received]
+      ,[Purchasing Outst. Quantity]	  
   FROM [dbo].[$(CompanyName)$Purchase Line] 
   WITH (NOLOCK)
 GO
