@@ -50,7 +50,7 @@ SELECT [Document Type]
       ,[Promised Receipt Date]	  
       ,[Purchasing Qty. to Receive]
       ,[Purchasing Quantity Received]
-      ,[Purchasing Outst. Quantity]	  
+      ,[Purchasing Qty. Outstanding]	  
   FROM [dbo].[$(CompanyName)$Purchase Line] 
   WITH (NOLOCK)
 GO
