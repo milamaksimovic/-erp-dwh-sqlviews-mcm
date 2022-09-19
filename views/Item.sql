@@ -60,6 +60,8 @@ SELECT [No_]
       ,[Production BOM No_]
       ,[Emballage Item]
       ,[Emballage Direct Unit Cost]
+      ,[Premium]
+      ,[Premium Tier]
   FROM [dbo].[$(CompanyName)$Item]
   WITH (NOLOCK)
 GO
