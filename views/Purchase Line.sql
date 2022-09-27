@@ -50,7 +50,10 @@ SELECT [Document Type]
       ,[Promised Receipt Date]	  
       ,[Purchasing Qty. to Receive]
       ,[Purchasing Quantity Received]
-      ,[Purchasing Qty. Outstanding]	  
+      ,[Purchasing Qty. Outstanding]
+      ,[Planned Purchasing Quantity]
+      ,[Planned Purch_ Qty_ Per UoM]
+      ,[Yield Item]
   FROM [dbo].[$(CompanyName)$Purchase Line] 
   WITH (NOLOCK)
 GO

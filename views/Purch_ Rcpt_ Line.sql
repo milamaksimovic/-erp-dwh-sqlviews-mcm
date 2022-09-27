@@ -38,7 +38,10 @@ SELECT [Document No_]
       ,[Purchasing Quantity]
       ,[Purch. Qty. per UoM]
       ,[Purchasing Direct Unit Cost]
+      ,[Yield Item]
       ,[Updated At]
+      ,[Planned Purchasing Quantity]
+      ,[Planned Purch_ Qty_ Per UoM]
   FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Line]
   WITH (NOLOCK)
 GO
