@@ -47,7 +47,8 @@ SELECT [Document Type]
       ,[Inv_ Discount Amount]
       ,[Expected Receipt Date]
       ,[Requested Receipt Date]
-      ,[Promised Receipt Date]	  
+      ,[Promised Receipt Date]
+      ,[Yield Item]
   FROM [dbo].[$(CompanyName)$Purchase Line] 
   WITH (NOLOCK)
 GO
