@@ -34,7 +34,10 @@ SELECT [Document No_]
       ,[Promised Receipt Date]
       ,[Order No_]
       ,[Order Line No_]
+      ,[Yield Item]
       ,[Updated At]
+      ,[Planned Purchasing Quantity]
+      ,[Planned Purch_ Qty_ Per UoM]
   FROM [dbo].[$(CompanyName)$Purch_ Rcpt_ Line]
   WITH (NOLOCK)
 GO
