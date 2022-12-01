@@ -20,7 +20,8 @@
             "Database": "MSG-STAGING-AU",
             "Companies": 
             [
-                "Marley Spoon Pty Ltd"
+                "Marley Spoon Pty Ltd",
+                "Chefgood Pty Ltd"
             ]
         },
         "staging-eu":
@@ -51,7 +52,8 @@
             "Database": "MSG-PROD-AU",
             "Companies": 
             [
-                "Marley Spoon Pty Ltd"
+                "Marley Spoon Pty Ltd",
+                "Chefgood Pty Ltd"
             ]
         },
         "prod-eu":
