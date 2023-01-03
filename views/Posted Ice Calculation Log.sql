@@ -38,6 +38,7 @@ SELECT [Sales Shipment No_]
       ,[Order Volume]
       ,[Default FC Temp_ Used]
       ,[Default Max Temp_ Used]
+      ,[Last Modified At]
   FROM [dbo].[$(CompanyName)$Posted Ice Calculation Log]
   WITH (NOLOCK)
 GO

@@ -78,5 +78,8 @@
                 "MarleySpoon Inc"
             ]
         }
-    }
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "release"
+    ]
 }

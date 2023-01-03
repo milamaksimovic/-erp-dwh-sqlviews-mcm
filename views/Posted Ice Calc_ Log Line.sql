@@ -23,6 +23,7 @@ SELECT [Sales Shipment No_]
       ,[Forecast Source]
       ,[Segment Country_Region Code]
       ,[Segment Post Code]
+      ,[Last Modified At]
   FROM [dbo].[$(CompanyName)$Posted Ice Calc_ Log Line]
   WITH (NOLOCK)
 GO
