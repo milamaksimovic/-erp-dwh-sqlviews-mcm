@@ -1,0 +1,63 @@
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE OR ALTER VIEW [dwh].[$(CompanyName)$Sales Cr_Memo Header] AS
+SELECT [No_]
+      ,[Responsibility Center]
+      ,[Location Code]
+      ,[Currency Code]
+      ,[Payment Method Code]
+      ,[Payment Terms Code]
+      ,[Shortcut Dimension 1 Code]
+      ,[Shortcut Dimension 2 Code]
+      ,[Posting Date]
+      ,[Document Date]
+      ,[Shipment Date]
+      ,[Due Date]
+      ,[Pmt_ Discount Date]
+      ,[Payment Discount _]
+      ,[Prices Including VAT]
+      ,[Your Reference]
+      ,[External Document No_]
+      ,[Product Type]
+      ,[IC Invoice]
+      ,[Sell-to Customer No_]
+      ,[Sell-to Customer Name]
+      ,[Sell-to Customer Name 2]
+      ,[Sell-to Address]
+      ,[Sell-to Address 2]
+      ,[Sell-to City]
+      ,[Sell-to Post Code]
+      ,[Sell-to County]
+      ,[Sell-to Country_Region Code]
+      ,[Bill-to Customer No_]
+      ,[Bill-to Name]
+      ,[Bill-to Name 2]
+      ,[Bill-to Address]
+      ,[Bill-to Address 2]
+      ,[Bill-to City]
+      ,[Bill-to Post Code]
+      ,[Bill-to County]
+      ,[Bill-to Country_Region Code]
+      ,[Ship-to Code]
+      ,[Ship-to Name]
+      ,[Ship-to Name 2]
+      ,[Ship-to Address]
+      ,[Ship-to Address 2]
+      ,[Ship-to City]
+      ,[Ship-to County]
+      ,[Ship-to Country_Region Code]
+      ,[Salesperson Code]
+      ,[Applies-to Doc_ Type]
+      ,[Applies-to Doc_ No_]
+      ,[Reason Code]
+      ,[Source Code]
+      ,[Updated At]      
+  FROM [dbo].[MSG Production AUT$Sales Cr_Memo Header]
+  WITH (NOLOCK)
+GO
+
+
