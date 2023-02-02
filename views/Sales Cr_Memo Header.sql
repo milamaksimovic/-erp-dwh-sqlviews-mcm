@@ -56,7 +56,7 @@ SELECT [No_]
       ,[Reason Code]
       ,[Source Code]
       ,[Updated At]      
-  FROM [dbo].[MSG Production AUT$Sales Cr_Memo Header]
+  FROM [dbo].[$(CompanyName)$Sales Cr_Memo Header]
   WITH (NOLOCK)
 GO
 
